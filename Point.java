@@ -62,10 +62,11 @@ class Point implements Comparable<Point> {
         }
 
         // then y coords
-        if (Math.abs(this.y - point.y) <= Point.THRESHOLD) {
-            return 0;
+        if (Math.abs(this.y - point.y) > Point.THRESHOLD) {
+            return Double.compare(this.y, point.y);
         }
-        return Double.compare(this.y, point.y);
+        
+        return 0;
     }
 
     @Override
