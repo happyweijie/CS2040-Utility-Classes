@@ -31,7 +31,7 @@ These classes are essential for representing edges and adjacency information in 
 | **`IntegerPair`** | `weight`, `v` | Adjacency list entries for weighted graphs. |
 | **`IntegerTriple`** | `weight`, `u`, `v` | Edge lists for Kruskal’s MST algorithm. |
 | **`PointPair`** | `weight`, `Point v` | Graph algorithms where nodes are geometric coordinates. |
-| **`PointTriple`** | `u`, `v`, `weight` | Representing weighted edges between two `Point` objects. |
+| **`PointTriple`** | `weight`, `Point u`, `Point v` | Representing weighted edges between two `Point` objects. |
 | **`Pair<T, U>`** | Generic `t`, `u` | A simple Java Record for lightweight data grouping. |
 
 ---
