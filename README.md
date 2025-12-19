@@ -51,6 +51,6 @@ if (Math.abs(point.x - this.x) < 1E-15) {
 ### OOP Principles & Immutability
 Following the Object-Oriented Programming principles taught in [**CS2030 Programming Methodology II**](https://nusmods.com/courses/CS2030/programming-methodology-ii), these classes are designed to be **immutable**. Attributes are marked as `private` and `final` to prevent side effects, with access provided through getter methods. 
 
-Feel free to modify the source code as required for their specific needs.
+Feel free to modify the source code as required depending on whatever your specific needs.
 
 Take Care :)
