@@ -1,6 +1,6 @@
 # CS2040 Utility Classes
 
-A collection of Java utility classes specifically curated for [**CS2040 Data Structures and Algorithms**](https://nusmods.com/courses/CS2040/data-structures-and-algorithms) students. These classes build on the basic data structures to help you focus on solving lab problems rather than boilerplate code.
+A collection of Java utility classes curated for [**CS2040 Data Structures and Algorithms**](https://nusmods.com/courses/CS2040/data-structures-and-algorithms) students. These classes build on the basic data structures to help you focus on solving lab problems rather than boilerplate code.
 
 ---
 

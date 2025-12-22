@@ -34,7 +34,7 @@ class PointTriple implements Comparable<PointTriple> {
             return this.u.compareTo(other.u);
         }
 
-        // the finally v
+        // then finally v
         return this.v.compareTo(other.v);
     }
 
