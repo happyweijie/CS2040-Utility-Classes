@@ -24,7 +24,7 @@ A 2D point class designed to handle floating-point precision issues using a defi
 * **Sorting**: Implements `Comparable` interface to allow for deterministic sorting, sorting first based on X-coordinates then Y-coordinates.
 
 ### 3. Graph & Data Modeling Classes
-These classes are essential for representing edges and adjacency information in graph algorithms like Dijkstra’s, Prim’s, or Kruskal’s.
+These classes are essential for representing edges and adjacency information in graph algorithms like Dijkstra’s, Prim’s, or Kruskal’s. The `UFDS` class may also prove useful for Kruskal's algorithm.
 
 | Class | Components | Typical Use Case |
 | :--- | :--- | :--- |
@@ -33,6 +33,7 @@ These classes are essential for representing edges and adjacency information in 
 | **`PointPair`** | `weight`, `Point v` | Graph algorithms where nodes are geometric coordinates. |
 | **`PointTriple`** | `weight`, `Point u`, `Point v` | Representing weighted edges between two `Point` objects. |
 | **`Pair<T, U>`** | Generic `t`, `u` | A simple Java Record for lightweight data grouping. |
+| **`UFDS`** | | Cycle checking and early termination in Kruskal's Algorithm. |
 
 ---
 
