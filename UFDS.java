@@ -41,6 +41,10 @@ class UFDS {
         return size[findSet(i)];
     }
 
+    public int sum(int i) {
+        return sum[findSet(i)];
+    }
+
     // Kruskal Optimisation
     public int countSets() {
         return count;
