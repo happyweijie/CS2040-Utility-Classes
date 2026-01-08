@@ -7,7 +7,7 @@ class UFDS {
     private int[] rank;
     private int[] size;
     private int[] sum;
-    int count;
+    private int count;
 
     public UFDS(int N) {
         p = new int[N];
