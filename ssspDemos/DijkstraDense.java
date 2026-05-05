@@ -1,7 +1,6 @@
 // Dijkstra's algorithm with adjacency matrix
 // instead of a pq, we directly work with the array
-// O(n^2) time complexity, where n is the number of cannons
-
+// O(n^2) time complexity, where n is the number of vertices
 import java.util.Arrays;
 
 class DijkstraDense {
