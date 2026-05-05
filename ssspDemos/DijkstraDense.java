@@ -1,8 +1,10 @@
-// Dijkstra's algorithm with adjacency matrix
-// instead of a pq, we directly work with the array
-// O(n^2) time complexity, where n is the number of vertices
 import java.util.Arrays;
 
+/**
+ * Dijkstra's algorithm with adjacency matrix
+ * instead of a pq, we directly work with the array
+ * O(n^2) time complexity, where n is the number of vertices
+ */
 class DijkstraDense {
 
     public static final int INF = 1_000_000_000;
