@@ -1,9 +1,10 @@
 import java.util.Arrays;
 
 /**
- * Dijkstra's algorithm with adjacency matrix
- * instead of a pq, we directly work with the array
- * O(n^2) time complexity, where n is the number of vertices
+ * Dijkstra's algorithm for dense graphs.
+ * <p>
+ * Instead of a pq, we directly work with the array
+ * O(n^2) time complesxity, where n is the number of vertices.
  */
 class DijkstraDense {
 
@@ -12,6 +13,7 @@ class DijkstraDense {
     public static void main(String[] args) {
 
         // Adjacency matrix representation of the graph
+        // Can use adjacency list as well, but for dense graphs, matrix is more efficient
         int[][] adjMatrix = {
             {0, 3, 7, 5, 0},
             {3, 0, 2, 1, 0},
@@ -25,7 +27,7 @@ class DijkstraDense {
 
         // Run Dijkstra's algorithm
         int dist = dijkstra(adjMatrix, start, end);
-        System.out.println(dist == -1 ? "No path exists" : dist);
+        System.out.println(dist == INF ? "No path exists" : dist);
     }
 
     /* Dijkstra's algorithm */
@@ -42,7 +44,7 @@ class DijkstraDense {
         boolean[] visited = new boolean[n];
 
         while (!visited[end]) {
-            // Find the unvisited vertex with the smallest distance
+            // Find the unvisited vertex with the smallest shortestDist
             int u = -1;
             int minDist = INF;
             for (int i = 0; i < n; i++) {
@@ -71,7 +73,6 @@ class DijkstraDense {
             }
         }
 
-        // return -1 if no path exists
-        return shortestDist[end] == INF ? -1 : shortestDist[end]; 
+        return shortestDist[end]; 
     }
 }
